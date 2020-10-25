@@ -22,7 +22,7 @@
     {
       ch: 10,
       syllables: 3,
-      string: "contentric"
+      string: "concentric"
     },
     {
       ch: 5,
@@ -245,7 +245,6 @@
 </style>
 
 <svelte:window bind:innerHeight bind:scrollY />
-
 
 <div
   class="leading-loose tracking-widest text-xl font-bold font-mono container
