@@ -1,0 +1,52 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+	--ft-serif: "Roboto Slab", Cambria, Cochin, Georgia, Times, "Times New Roman",
+		serif;
+}
+.ft-serif {
+	font-family: var(--ft-serif);
+}
+
+.w-content-max {
+	width: max-content;
+}
+
+.w-content-min {
+	width: min-content;
+}
+
+.w-content-initial {
+	width: initial;
+}
+
+.h-content-max {
+	height: max-content;
+}
+
+.h-content-min {
+	height: min-content;
+}
+
+.h-content-initial {
+	height: initial;
+}
+
+.position-statement:before {
+	font-family: Georgia, serif;
+	position: absolute;
+	color: #1a202c;
+	line-height: 0;
+	font-size: 8rem;
+	opacity: 0.1;
+	z-index: 0;
+	/*  */
+	top: 2.4rem;
+	left: -1rem;
+	content: "\201C";
+}
+.position-statement cite:before {
+	content: "\2013";
+}
