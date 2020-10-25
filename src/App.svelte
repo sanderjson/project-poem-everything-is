@@ -8,14 +8,6 @@
   let prob;
   let active;
 
-  const metadata = {
-    title: "Everything Is",
-    description: "Everything Is A Ladder | Poem by Jonathan Sanderson",
-    image: "https://svelte.dev/images/twitter-card.png",
-    imageAlt: "Svelte svelte.dev",
-    url: "svelte.dev"
-  };
-
   let words = [
     {
       ch: 9,
@@ -254,7 +246,6 @@
 
 <svelte:window bind:innerHeight bind:scrollY />
 
-<Meta {metadata} />
 
 <div
   class="leading-loose tracking-widest text-xl font-bold font-mono container
